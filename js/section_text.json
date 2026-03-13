@@ -1,0 +1,47 @@
+{
+    "about": {
+        "title": "Software Development Engineer",
+        "description": "Passionate about creating software and applications, with a knack for learning new concepts to create something fun and interesting."
+    },
+    "education": {
+        "date": "Sep. 2021 - Present",
+        "description": "Studying at Portland State University and an active participant of the PCEP program."
+    },
+    "experience": [
+        {
+            "company": "Apex Fintech Solutions",
+            "role": "Software Development Engineer in Test Intern",
+            "date": "Jan. 2026 - Present",
+            "description": "Interning at Apex Fintech as an SDET.",
+            "image": "apex-logo.jpg"
+        },
+        {
+            "company": "The Standard",
+            "role": "Cloud Infrastructure Engineer Intern",
+            "date": "Jan. 2026 - Present",
+            "description": "Developed automations and pipelines connecting shared services to 90+ Azure DevOps projects. Developed the new VWAN build agents, strengthening Zero Trust security and improving organizational security posture. Optimized CI/CD Python pipelines package installation, increasing overall speed and efficiency pipeline build times.",
+            "image": "standard_logo.jpg"
+        },
+        {
+            "company": "Multnomah County",
+            "role": "Software Developer Intern",
+            "date": "Jan. 2026 - Present",
+            "description": "Assisted in refactoring, upgrading from .NET Framework to .NET Core, and developing unit tests for MVC services and applications for the Multnomah County Sheriff's Office.",
+            "image": "multco-logo.jpg"
+        },
+        {
+            "company": "The Standard",
+            "role": "Software Development Engineer in Test Intern",
+            "date": "Jan. 2026 - Present",
+            "description": "Developed and integrated data integrity checks for data curations code and maintained code for encryptions of PIIs in development environments with Pyspark and Databricks. Developed and provisioned new APIs for product teams and for testing purposes in Azure.",
+            "image": "standard_logo.jpg"
+        },
+        {
+            "company": "Portland Community College",
+            "role": "Software Development Engineer in Test Intern",
+            "date": "Jan. 2026 - Present",
+            "description": "Working as a casual IT Assistant at Portland Community College. Responsible for maintaining and provisioning hundreds of computers campus-wide.",
+            "image": "pcc-logo.png"
+        }
+    ]
+}

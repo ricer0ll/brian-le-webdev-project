@@ -1,0 +1,23 @@
+body {
+    background-color: #181818;
+    font-family: "Poppins"
+}
+
+#mainNavBar {
+    border-radius: 2em;
+}
+
+.nav-link > h5 {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+#brianPotrait {
+    max-width: 20em;
+}
+
+#psuLogo {
+    background-color: white;
+    padding: 1em 1em 1em 1em;
+    max-width: 30em;
+}
