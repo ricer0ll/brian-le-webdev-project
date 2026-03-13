@@ -46,7 +46,7 @@
         },
         {
             "company": "Portland Community College",
-            "role": "Software Development Engineer in Test Intern",
+            "role": "IT Assistant",
             "date": "Jan. 2024 - June 2025",
             "description": "Working as a casual IT Assistant at Portland Community College. Responsible for maintaining and provisioning hundreds of computers campus-wide.",
             "link": "https://www.pcc.edu/",
@@ -79,5 +79,67 @@
             "link": "https://kiokucards.com/",
             "description": "Creating an online full-stack web app for users to create and manage flashcards for studying. Built using React with Bootstrap for the frontend, and Spring Boot with MongoDB for the backend. Hosted on Firebase and backend deployed on AWS."
         }
-    ]
+    ],
+    "skills": {
+        "languages": [
+            {
+                "language": "",
+                "image": ""
+            },
+            {
+                "language": "",
+                "image": ""
+            },
+            {
+                "language": "",
+                "image": ""
+            },
+            {
+                "language": "",
+                "image": ""
+            },
+            {
+                "language": "",
+                "image": ""
+            }
+        ],
+        "technologies": [
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            },
+            {
+                "name": "",
+                "image": ""
+            }
+        ]
+    }
 }

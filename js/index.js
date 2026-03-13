@@ -87,7 +87,7 @@ function addProject(image, name, date, description, alt, link) {
     )
     .append($(`<div class="col-lg-2">`))
     .append(
-      $(`<div class="col-md-12 col-lg-5 mt-5 text-lg-start">`)
+      $(`<div class="col-md-12 col-lg-5 mt-2 text-lg-start">`)
         .append($(`<h1>`).text(name))
         .append($(`<h5>`).text(date))
         .append($(`<p>`).text(description)),

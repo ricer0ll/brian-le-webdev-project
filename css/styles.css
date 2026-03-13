@@ -22,7 +22,7 @@ a {
     margin-right: 1em;
 }
 
-#brianPotrait {
+#brianPortrait {
     max-width: 20em;
 }
 
@@ -95,6 +95,36 @@ a {
 }
 
 #experienceBanner:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    transition-duration: 0.4s;
+}
+
+#brianPortrait:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 10px 5px #FFEB3B;
+    transition-duration: 0.2s;
+}
+
+#brianPortrait:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    transition-duration: 0.4s;
+}
+
+#psuLogo:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 10px 5px #FFEB3B;
+    transition-duration: 0.2s;
+}
+
+#psuLogo:not(:hover) {
     animation-name: slideDown;
     animation-duration: 0.4s;
     animation-fill-mode: forwards;
