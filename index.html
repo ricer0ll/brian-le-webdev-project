@@ -40,9 +40,11 @@
       src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
     ></script>
     <script type="module" defer src="js/index.js"></script>
+    <link href="css/animations.css" type="text/css" rel="stylesheet"/>
     <link href="css/styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
+
     <!-- Navbar -->
     <nav
       class="navbar navbar-dark navbar-expand-lg mt-2 mx-2 sticky-top navbar-dark-translucent"
@@ -71,21 +73,21 @@
         <div class="collapse navbar-collapse" id="navbarCollapsableContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#"><h5>Brian Le</h5></a>
+              <a class="nav-link navbar-brand" href="#">Brian Le</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#aboutSection"><h5>About</h5></a>
+              <a class="nav-link navbar-brand" href="#aboutSection">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#experienceSection"
-                ><h5>Experience</h5></a
+              <a class="nav-link navbar-brand" href="#experienceSection"
+                >Experience</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#projectsSection"><h5>Projects</h5></a>
+              <a class="nav-link navbar-brand" href="#projectsSection">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contactSection"><h5>Contact</h5></a>
+              <a class="nav-link navbar-brand" href="#contactSection">Contact</a>
             </li>
           </ul>
         </div>
@@ -105,27 +107,28 @@
             <img
               id="brianPortrait"
               src="assets/portrait.jpg"
-              alt="Brian portrait image"
+              alt="Portrait image of Brian Le"
               class="rounded img-fluid"
             />
           </a>
         </div>
         <div class="col-lg-2"></div>
         <div class="col-md-12 col-lg-5 my-5 text-lg-start text-center">
-          <h1 id="aboutTitle"></h1>
+          <h2 id="aboutTitle" class="fs-1"></h2>
           <p id="aboutText"></p>
           <div class="row mt-4">
             <div id="expMetrics" class="col-6 text-center">
-              <h2>+2</h2>
+              <h3 class="fs-2 fw-medium">+2</h3>
               <p>YEARS OF EXPERIENCE</p>
             </div>
             <div id="expMetrics" class="col-6 text-center">
-              <h2>+5</h2>
+              <h3 class="fs-2 fw-medium">+5</h3>
               <p>PROJECTS COMPLETED</p>
             </div>
           </div>
         </div>
       </div>
+
       <!-- College/Education -->
       <div class="row align-items-center my-5">
         <div class="col-md-12 col-lg-5 d-flex justify-content-center">
@@ -140,7 +143,7 @@
         </div>
         <div class="col-lg-2"></div>
         <div class="col-md-12 col-lg-5 mt-5 text-lg-start text-center">
-          <h1>Computer Science Major</h1>
+          <h2 class="fs-1">Computer Science Major</h2>
           <p id="educationText"></p>
         </div>
       </div>

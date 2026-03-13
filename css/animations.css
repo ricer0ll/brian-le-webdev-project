@@ -1,0 +1,89 @@
+@keyframes slideUp {
+  from {}
+
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+#contact i:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+#contact i:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+#projectBanner:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 10px 5px #FF5722;
+    transition-duration: 0.2s;
+}
+
+#projectBanner:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    transition-duration: 0.4s;
+}
+
+#experienceBanner:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 10px 5px #673AB7;
+    transition-duration: 0.2s;
+}
+
+#experienceBanner:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    transition-duration: 0.4s;
+}
+
+#brianPortrait:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 10px 5px #FFEB3B;
+    transition-duration: 0.2s;
+}
+
+#brianPortrait:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    transition-duration: 0.4s;
+}
+
+#psuLogo:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 10px 5px #FFEB3B;
+    transition-duration: 0.2s;
+}
+
+#psuLogo:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    transition-duration: 0.4s;
+}
