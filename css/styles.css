@@ -12,6 +12,10 @@ a {
     border-radius: 2em;
 }
 
+#mainNavBar img {
+    width: 95px;
+}
+
 .navbar-dark-translucent {
     background-color: rgba(33, 37, 41, 0.95);
     backdrop-filter: blur(5px);
@@ -49,4 +53,10 @@ a {
 .btn-custom:hover {
     background-color: #e04b1d;
     color: white;
+}
+
+@media (max-width: 576px) {
+    #mainNavBar img {
+        width: 65px;
+    }
 }

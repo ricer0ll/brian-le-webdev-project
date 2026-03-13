@@ -1,136 +1,136 @@
 {
-    "about": {
-        "title": "Software Development Engineer",
-        "description": "Passionate about creating software and applications, with a knack for learning new concepts to create something fun and interesting."
+  "about": {
+    "title": "Software Development Engineer",
+    "description": "Passionate about creating software and applications, with a knack for learning new concepts to create something fun and interesting."
+  },
+  "education": {
+    "date": "Sep. 2021 - Present",
+    "description": "Studying at Portland State University and an active participant of the PCEP program."
+  },
+  "experience": [
+    {
+      "company": "Apex Fintech Solutions",
+      "role": "Software Development Engineer in Test Intern",
+      "date": "Jan. 2026 - Present",
+      "description": "Interning at Apex Fintech as an SDET.",
+      "link": "https://apexfintechsolutions.com/",
+      "alt": "Apex Fintech Solutions logo",
+      "image": "apex-logo.jpg"
     },
-    "education": {
-        "date": "Sep. 2021 - Present",
-        "description": "Studying at Portland State University and an active participant of the PCEP program."
+    {
+      "company": "The Standard",
+      "role": "Cloud Infrastructure Engineer Intern",
+      "date": "July 2025 - Dec. 2025",
+      "description": "Developed automations and pipelines connecting shared services to 90+ Azure DevOps projects. Developed the new VWAN build agents, strengthening Zero Trust security and improving organizational security posture. Optimized CI/CD Python pipelines package installation, increasing overall speed and efficiency pipeline build times.",
+      "link": "https://www.standard.com/",
+      "alt": "The Standard logo",
+      "image": "standard_logo.jpg"
     },
-    "experience": [
-        {
-            "company": "Apex Fintech Solutions",
-            "role": "Software Development Engineer in Test Intern",
-            "date": "Jan. 2026 - Present",
-            "description": "Interning at Apex Fintech as an SDET.",
-            "link": "https://apexfintechsolutions.com/",
-            "alt": "Apex Fintech Solutions logo",
-            "image": "apex-logo.jpg"
-        },
-        {
-            "company": "The Standard",
-            "role": "Cloud Infrastructure Engineer Intern",
-            "date": "July 2025 - Dec. 2025",
-            "description": "Developed automations and pipelines connecting shared services to 90+ Azure DevOps projects. Developed the new VWAN build agents, strengthening Zero Trust security and improving organizational security posture. Optimized CI/CD Python pipelines package installation, increasing overall speed and efficiency pipeline build times.",
-            "link": "https://www.standard.com/",
-            "alt": "The Standard logo",
-            "image": "standard_logo.jpg"
-        },
-        {
-            "company": "Multnomah County",
-            "role": "Software Developer Intern",
-            "date": "Jan. 2025 - June 2025",
-            "description": "Assisted in refactoring, upgrading from .NET Framework to .NET Core, and developing unit tests for MVC services and applications for the Multnomah County Sheriff's Office.",
-            "link": "https://multco.us/",
-            "alt": "Multnomah County logo",
-            "image": "multco-logo.jpg"
-        },
-        {
-            "company": "The Standard",
-            "role": "Software Development Engineer in Test Intern",
-            "date": "Aug. 2024 - Dec. 2024",
-            "description": "Developed and integrated data integrity checks for data curations code and maintained code for encryptions of PIIs in development environments with Pyspark and Databricks. Developed and provisioned new APIs for product teams and for testing purposes in Azure.",
-            "link": "https://www.standard.com/",
-            "alt": "The Standard logo",
-            "image": "standard_logo.jpg"
-        }
-    ],
-    "project": [
-        {
-            "image": "osu_nn.png",
-            "alt": "osu Neural Network banner art",
-            "name": "osu! Neural Network",
-            "date": "Dec. 2025 - Present",
-            "link": "https://youtu.be/w70I-cmkMqs?si=85gTslLPnYByoqeM",
-            "description": "Developed a Neural Network to play the game osu! using Tensorflow and Keras. Parsing beatmaps and replays to learn how to play from user examples, achieving near human-like gameplay and stellar accuracy."
-        },
-        {
-            "image": "miko_banner_art.gif",
-            "alt": "Miko banner art",
-            "name": "Miko: The Awesome Discord AI Chatbot",
-            "date": "Dec. 2024 - Present",
-            "link": "#",
-            "description": "This is Miko. Your witty, smart, and uniquely personable Discord AI Chatbot that interacts with users in both text and voice channels in Discord. Powered by a personally fine-tuned Mistral model, Text-To-Speech, and Retrieval-based Voice Conversion model, all running locally. It also has the ability to play Minecraft!"
-        },
-        {
-            "image": "kioku_banner.png",
-            "alt": "Kioku banner art",
-            "name": "Kioku! The Online Flashcard",
-            "date": "Aug. 2024 - Nov. 2024",
-            "link": "https://kiokucards.com/",
-            "description": "Creating an online full-stack web app for users to create and manage flashcards for studying. Built using React with Bootstrap for the frontend, and Spring Boot with MongoDB for the backend. Hosted on Firebase and backend deployed on AWS."
-        }
-    ],
-    "skills": {
-        "languages": [
-            {
-                "language": "",
-                "image": ""
-            },
-            {
-                "language": "",
-                "image": ""
-            },
-            {
-                "language": "",
-                "image": ""
-            },
-            {
-                "language": "",
-                "image": ""
-            },
-            {
-                "language": "",
-                "image": ""
-            }
-        ],
-        "technologies": [
-            {
-                "name": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "image": ""
-            },
-            {
-                "name": "",
-                "image": ""
-            }
-        ]
+    {
+      "company": "Multnomah County",
+      "role": "Software Developer Intern",
+      "date": "Jan. 2025 - June 2025",
+      "description": "Assisted in refactoring, upgrading from .NET Framework to .NET Core, and developing unit tests for MVC services and applications for the Multnomah County Sheriff's Office.",
+      "link": "https://multco.us/",
+      "alt": "Multnomah County logo",
+      "image": "multco-logo.jpg"
+    },
+    {
+      "company": "The Standard",
+      "role": "Software Development Engineer in Test Intern",
+      "date": "Aug. 2024 - Dec. 2024",
+      "description": "Developed and integrated data integrity checks for data curations code and maintained code for encryptions of PIIs in development environments with Pyspark and Databricks. Developed and provisioned new APIs for product teams and for testing purposes in Azure.",
+      "link": "https://www.standard.com/",
+      "alt": "The Standard logo",
+      "image": "standard_logo.jpg"
     }
+  ],
+  "project": [
+    {
+      "image": "osu_nn.png",
+      "alt": "osu Neural Network banner art",
+      "name": "osu! Neural Network",
+      "date": "Dec. 2025 - Present",
+      "link": "https://youtu.be/w70I-cmkMqs?si=85gTslLPnYByoqeM",
+      "description": "Developed a Neural Network to play the game osu! using Tensorflow and Keras. Parsing beatmaps and replays to learn how to play from user examples, achieving near human-like gameplay and stellar accuracy."
+    },
+    {
+      "image": "miko_banner_art.gif",
+      "alt": "Miko banner art",
+      "name": "Miko: The Awesome Discord AI Chatbot",
+      "date": "Dec. 2024 - Present",
+      "link": "#",
+      "description": "This is Miko. Your witty, smart, and uniquely personable Discord AI Chatbot that interacts with users in both text and voice channels in Discord. Powered by a personally fine-tuned Mistral model, Text-To-Speech, and Retrieval-based Voice Conversion model, all running locally. It also has the ability to play Minecraft!"
+    },
+    {
+      "image": "kioku_banner.png",
+      "alt": "Kioku banner art",
+      "name": "Kioku! The Online Flashcard",
+      "date": "Aug. 2024 - Nov. 2024",
+      "link": "https://kiokucards.com/",
+      "description": "Creating an online full-stack web app for users to create and manage flashcards for studying. Built using React with Bootstrap for the frontend, and Spring Boot with MongoDB for the backend. Hosted on Firebase and backend deployed on AWS."
+    }
+  ],
+  "skills": {
+    "languages": [
+      {
+        "language": "",
+        "image": ""
+      },
+      {
+        "language": "",
+        "image": ""
+      },
+      {
+        "language": "",
+        "image": ""
+      },
+      {
+        "language": "",
+        "image": ""
+      },
+      {
+        "language": "",
+        "image": ""
+      }
+    ],
+    "technologies": [
+      {
+        "name": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "image": ""
+      },
+      {
+        "name": "",
+        "image": ""
+      }
+    ]
+  }
 }
