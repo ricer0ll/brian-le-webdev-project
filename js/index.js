@@ -144,6 +144,6 @@ emailSubmit.addEventListener("submit", (event) => {
   const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample)
   toastBootstrap.show()
 
-  //emailjs.send("service_roewke7", "template_ujdrkdg", templateParams);
+  emailjs.send("service_roewke7", "template_ujdrkdg", templateParams);
   console.log("Sent email");
 });
