@@ -3,6 +3,11 @@ body {
     font-family: "Poppins"
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 #mainNavBar {
     border-radius: 2em;
 }
@@ -24,4 +29,44 @@ body {
 
 #expMetrics > h2 {
     color: #FF5722;
+}
+
+@keyframes slideUp {
+  from {}
+
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes slideDown {
+  from {
+    transform: translateY(-10px);
+  }
+
+  to {
+    transform: translateY(0);
+  }
+}
+
+#contact i:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+#contact i:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+}
+
+.btn-custom {
+    background-color: #FF5722;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #e04b1d;
+    color: white;
 }

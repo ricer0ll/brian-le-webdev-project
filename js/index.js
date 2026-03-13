@@ -30,7 +30,6 @@ function setProjectsSection(jsonFile) {
     .then((response) => response.json())
     .then((data) => {
         const listOfProjects = data.project;
-        console.log(listOfProjects);
 
         listOfProjects.forEach((project) => {
             addProject(project.image, project.name, project.date, project.description, project.alt)
@@ -42,11 +41,11 @@ function setProjectsSection(jsonFile) {
 function addExperience(image, role, date, description, alt) {
   $("#experience")
   .append(
-    $(`<div class="col-md-12 col-lg-5 d-flex justify-content-center my-5">`)
+    $(`<div class="col-md-12 col-lg-4 d-flex justify-content-center my-5">`)
       .append(`<img src="assets/${image}" alt=${alt} class="rounded img-fluid"/>`)
   )
   .append(
-    $(`<div class="col-lg-2">`)
+    $(`<div class="col-lg-3">`)
   )
   .append(
     $(`<div class="col-md-12 col-lg-5 text-lg-start">`)
@@ -73,7 +72,48 @@ function addProject(image, name, date, description, alt) {
   );
 }
 
+function isValidEmail(email) {
+    // Credit: https://www.geeksforgeeks.org/javascript/javascript-program-to-validate-an-email-address/
+
+    const pattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    return pattern.test(email);
+}
+
+emailjs.init({
+  publicKey: 'YTMD_35H_10BWvLt4',
+  blockHeadless: true,
+  blockList: {
+    list: []
+  },
+  limitRate: {
+    // Set the limit rate for the application
+    id: 'app',
+    // Allow 1 request per 10s
+    throttle: 10000,
+  },
+});
+
 const jsonFile = "js/section_text.json";
 setAboutSection(jsonFile);
 setExperienceSection(jsonFile);
 setProjectsSection(jsonFile);
+
+const emailSubmit = document.querySelector("#contactForm")
+emailSubmit.addEventListener("submit", event => {
+    event.preventDefault();
+
+    const templateParams = {
+        "name": document.querySelector("#inputName").value,
+        "message": document.querySelector("#inputMsg").value,
+        "email": document.querySelector("#inputEmail").value
+    };
+    
+    // Make sure the email is valid
+    if (!isValidEmail(templateParams.email)) {
+        console.log(templateParams.email);
+        return;
+    }
+
+    emailjs.send("service_roewke7", "template_ujdrkdg", templateParams)
+    console.log("Sent email")
+})
