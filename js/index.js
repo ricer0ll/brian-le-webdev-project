@@ -1,8 +1,11 @@
 import {
-  setAboutSection, 
-  setExperienceSection, 
-  setProjectsSection, isValidEmail
-} from './utils.js';
+  setAboutSection,
+  setExperienceSection,
+  setProjectsSection,
+  isValidEmail,
+} from "./utils.js";
+
+let submissionLocked = false;
 
 // EmailJS docs: https://www.emailjs.com/docs/tutorial/overview/
 emailjs.init({
@@ -28,7 +31,15 @@ const emailSubmit = document.querySelector("#contactForm");
 emailSubmit.addEventListener("submit", (event) => {
   event.preventDefault();
 
-  const toastLiveExample = document.getElementById("liveToast");
+  const emailSuccessToast = document.getElementById("emailSuccessToast");
+  const emailWaitToast = document.getElementById("emailWaitToast");
+
+  // prevents spams
+  const waitToast = bootstrap.Toast.getOrCreateInstance(emailWaitToast);
+  if (submissionLocked) {
+    waitToast.show();
+    return;
+  }
 
   const templateParams = {
     name: document.querySelector("#inputName").value,
@@ -43,16 +54,22 @@ emailSubmit.addEventListener("submit", (event) => {
     return;
   }
 
-  const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastLiveExample);
-  toastBootstrap.show();
+  // start cooldown
+  submissionLocked = true;
 
+  // send email
+  const successToast = bootstrap.Toast.getOrCreateInstance(emailSuccessToast);
   emailjs.send("service_roewke7", "template_ujdrkdg", templateParams).then(
     (response) => {
       console.log("Email sent");
+      // emailjs rate limiting does not work...
+      setTimeout(() => {
+        submissionLocked = false;
+      }, 10000);
+      successToast.show();
     },
     (error) => {
       console.log("Failed to send email");
     },
   );
-  console.log("Sent email");
 });

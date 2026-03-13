@@ -1,3 +1,5 @@
+// Credits for ES6 modules import/export: https://www.youtube.com/watch?v=cRHQNNcYf6s
+
 export function setAboutSection(jsonFile) {
   const aboutTitle = document.querySelector("#aboutTitle");
   const aboutText = document.querySelector("#aboutText");
