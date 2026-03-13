@@ -122,6 +122,7 @@ setAboutSection(jsonFile);
 setExperienceSection(jsonFile);
 setProjectsSection(jsonFile);
 
+// EmailJS stuff
 const emailSubmit = document.querySelector("#contactForm");
 emailSubmit.addEventListener("submit", (event) => {
   event.preventDefault();

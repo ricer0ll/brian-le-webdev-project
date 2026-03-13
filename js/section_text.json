@@ -43,15 +43,6 @@
             "link": "https://www.standard.com/",
             "alt": "The Standard logo",
             "image": "standard_logo.jpg"
-        },
-        {
-            "company": "Portland Community College",
-            "role": "IT Assistant",
-            "date": "Jan. 2024 - June 2025",
-            "description": "Working as a casual IT Assistant at Portland Community College. Responsible for maintaining and provisioning hundreds of computers campus-wide.",
-            "link": "https://www.pcc.edu/",
-            "alt": "Portland Community College logo",
-            "image": "pcc-logo.png"
         }
     ],
     "project": [
