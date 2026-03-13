@@ -42,7 +42,7 @@ function addExperience(image, role, date, description, alt) {
   $("#experience")
   .append(
     $(`<div class="col-md-12 col-lg-4 d-flex justify-content-center my-5">`)
-      .append(`<img src="assets/${image}" alt=${alt} class="rounded img-fluid"/>`)
+      .append(`<img id="experienceBanner" src="assets/${image}" alt=${alt} class="rounded img-fluid"/>`)
   )
   .append(
     $(`<div class="col-lg-3">`)
@@ -59,7 +59,7 @@ function addProject(image, name, date, description, alt) {
   $("#projects")
   .append(
     $(`<div class="col-md-12 col-lg-5 d-flex justify-content-center my-5">`)
-      .append(`<img src="assets/${image}" alt=${alt} class="rounded img-fluid"/>`)
+      .append(`<img id="projectBanner" src="assets/${image}" alt=${alt} class="rounded img-fluid"/>`)
   )
   .append(
     $(`<div class="col-lg-2">`)
@@ -79,6 +79,7 @@ function isValidEmail(email) {
     return pattern.test(email);
 }
 
+// EmailJS docs: https://www.emailjs.com/docs/tutorial/overview/
 emailjs.init({
   publicKey: 'YTMD_35H_10BWvLt4',
   blockHeadless: true,

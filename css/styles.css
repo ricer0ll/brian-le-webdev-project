@@ -12,6 +12,11 @@ a {
     border-radius: 2em;
 }
 
+.navbar-dark-translucent {
+    background-color: rgba(33, 37, 41, 0.95);
+    backdrop-filter: blur(5px);
+}
+
 .nav-link > h5 {
     margin-left: 1em;
     margin-right: 1em;
@@ -59,6 +64,36 @@ a {
     animation-name: slideDown;
     animation-duration: 0.4s;
     animation-fill-mode: forwards;
+}
+
+#projectBanner:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 10px 5px #FF5722;
+    transition-duration: 0.2s;
+}
+
+#projectBanner:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    transition-duration: 0.4s;
+}
+
+#experienceBanner:hover {
+    animation-name: slideUp;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    box-shadow: 0px 5px 10px 5px #673AB7;
+    transition-duration: 0.2s;
+}
+
+#experienceBanner:not(:hover) {
+    animation-name: slideDown;
+    animation-duration: 0.4s;
+    animation-fill-mode: forwards;
+    transition-duration: 0.4s;
 }
 
 .btn-custom {

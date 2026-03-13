@@ -15,14 +15,12 @@
       integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
       crossorigin="anonymous"
     />
-    <link href="css/styles.css" type="text/css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
-    <script defer src="js/index.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
@@ -37,13 +35,16 @@
       src="https://kit.fontawesome.com/31b4bdf292.js"
       crossorigin="anonymous"
     ></script>
-    <script type="text/javascript"
-        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-    </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+    <script defer src="js/index.js"></script>
+    <link href="css/styles.css" type="text/css" rel="stylesheet" />
   </head>
   <body>
     <nav
-      class="navbar navbar-dark bg-dark navbar-expand-lg mt-2 mx-2 sticky-top"
+      class="navbar navbar-dark navbar-expand-lg mt-2 mx-2 sticky-top navbar-dark-translucent"
       id="mainNavBar"
     >
       <div class="container-fluid">
@@ -141,7 +142,7 @@
       <div id="projects" class="row align-items-center my-5"></div>
 
       <h1 id="contactSection" class="text-center fw-bolder">Contact</h1>
-      
+
       <form id="contactForm">
         <div class="row my-3">
           <div class="col">
@@ -177,48 +178,48 @@
           required
         ></textarea>
         <div class="d-grid">
-          <button id="emailSubmit" type="button submit" class="btn btn-custom my-3">Submit</button>
+          <button
+            id="emailSubmit"
+            type="submit"
+            class="btn btn-custom btn-lg my-3 fw-bold"
+          >
+            Submit
+          </button>
         </div>
       </form>
 
-      <div id="contact" class="row align-items-center my-5">
-        <div class="col-4"></div>
-        <div class="col-1 d-flex justify-content-center my-3">
-          <a href="mailto:brianp.le@outlook.com" target="_blank"
-            ><i id="icons" class="fa-solid fa-envelope fa-4x"></i
-          ></a>
-        </div>
-        <div class="col-2"></div>
-        <div class="col-5 text-start">
-          <h1>Email</h1>
+      <div id="contact" class="row justify-content-center my-5">
+        <div class="col-2 d-flex flex-column align-items-center my-3">
+          <a
+            href="mailto:brianp.le@outlook.com"
+            target="_blank"
+            class="text-center"
+          >
+            <i class="fa-solid fa-envelope fa-4x"></i>
+            <h1 class="mt-2">Email</h1>
+          </a>
         </div>
 
-        <div class="col-4"></div>
-        <div class="col-1 d-flex justify-content-center my-3">
+        <div class="col-2 d-flex flex-column align-items-center my-3">
           <a
             href="https://www.linkedin.com/in/brian-le-ab78b0264/"
-            class="icon-link"
             target="_blank"
-            ><i class="fa-brands fa-linkedin fa-4x"></i
-          ></a>
-        </div>
-        <div class="col-2"></div>
-        <div class="col-5 text-start">
-          <h1>LinkedIn</h1>
+            class="text-center"
+          >
+            <i class="fa-brands fa-linkedin fa-4x"></i>
+            <h1 class="mt-2">LinkedIn</h1>
+          </a>
         </div>
 
-        <div class="col-4"></div>
-        <div class="col-1 d-flex justify-content-center my-3">
+        <div class="col-2 d-flex flex-column align-items-center my-3">
           <a
             href="https://github.com/ricer0ll"
-            class="icon-link"
             target="_blank"
-            ><i class="fa-brands fa-github fa-4x"></i
-          ></a>
-        </div>
-        <div class="col-2"></div>
-        <div class="col-5 text-start">
-          <h1>GitHub</h1>
+            class="text-center"
+          >
+            <i class="fa-brands fa-github fa-4x"></i>
+            <h1 class="mt-2">GitHub</h1>
+          </a>
         </div>
       </div>
     </section>
