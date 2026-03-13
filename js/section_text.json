@@ -13,35 +13,63 @@
             "role": "Software Development Engineer in Test Intern",
             "date": "Jan. 2026 - Present",
             "description": "Interning at Apex Fintech as an SDET.",
+            "alt": "Apex Fintech Solutions logo",
             "image": "apex-logo.jpg"
         },
         {
             "company": "The Standard",
             "role": "Cloud Infrastructure Engineer Intern",
-            "date": "Jan. 2026 - Present",
+            "date": "July 2025 - Dec. 2025",
             "description": "Developed automations and pipelines connecting shared services to 90+ Azure DevOps projects. Developed the new VWAN build agents, strengthening Zero Trust security and improving organizational security posture. Optimized CI/CD Python pipelines package installation, increasing overall speed and efficiency pipeline build times.",
+            "alt": "The Standard logo",
             "image": "standard_logo.jpg"
         },
         {
             "company": "Multnomah County",
             "role": "Software Developer Intern",
-            "date": "Jan. 2026 - Present",
+            "date": "Jan. 2025 - June 2025",
             "description": "Assisted in refactoring, upgrading from .NET Framework to .NET Core, and developing unit tests for MVC services and applications for the Multnomah County Sheriff's Office.",
+            "alt": "Multnomah County logo",
             "image": "multco-logo.jpg"
         },
         {
             "company": "The Standard",
             "role": "Software Development Engineer in Test Intern",
-            "date": "Jan. 2026 - Present",
+            "date": "Aug. 2024 - Dec. 2024",
             "description": "Developed and integrated data integrity checks for data curations code and maintained code for encryptions of PIIs in development environments with Pyspark and Databricks. Developed and provisioned new APIs for product teams and for testing purposes in Azure.",
+            "alt": "The Standard logo",
             "image": "standard_logo.jpg"
         },
         {
             "company": "Portland Community College",
             "role": "Software Development Engineer in Test Intern",
-            "date": "Jan. 2026 - Present",
+            "date": "Jan. 2024 - June 2025",
             "description": "Working as a casual IT Assistant at Portland Community College. Responsible for maintaining and provisioning hundreds of computers campus-wide.",
+            "alt": "Portland Community College logo",
             "image": "pcc-logo.png"
+        }
+    ],
+    "project": [
+        {
+            "image": "osu_nn.png",
+            "alt": "osu Neural Network banner art",
+            "name": "osu! Neural Network",
+            "date": "Dec. 2025 - Present",
+            "description": "Developed a Neural Network to play the game osu! using Tensorflow and Keras. Parsing beatmaps and replays to learn how to play from user examples, achieving near human-like gameplay and stellar accuracy."
+        },
+        {
+            "image": "miko_banner_art.gif",
+            "alt": "Miko banner art",
+            "name": "Miko: The Awesome Discord AI Chatbot",
+            "date": "Dec. 2024 - Present",
+            "description": "This is Miko. Your witty, smart, and uniquely personable Discord AI Chatbot that interacts with users in both text and voice channels in Discord. Powered by a personally fine-tuned Mistral model, Text-To-Speech, and Retrieval-based Voice Conversion model, all running locally. It also has the ability to play Minecraft!"
+        },
+        {
+            "image": "kioku_banner.png",
+            "alt": "Kioku banner art",
+            "name": "Kioku! The Online Flashcard",
+            "date": "Aug. 2024 - Nov. 2024",
+            "description": "Creating an online full-stack web app for users to create and manage flashcards for studying. Built using React with Bootstrap for the frontend, and Spring Boot with MongoDB for the backend. Hosted on Firebase and backend deployed on AWS."
         }
     ]
 }
