@@ -21,10 +21,12 @@ emailjs.init({
   },
 });
 
+// Set sections, experience, and projects
 const jsonFile = "js/section_text.json";
 setAboutSection(jsonFile);
 setExperienceSection(jsonFile);
 setProjectsSection(jsonFile);
+
 
 // EmailJS stuff
 const emailSubmit = document.querySelector("#contactForm");
@@ -73,3 +75,4 @@ emailSubmit.addEventListener("submit", (event) => {
     },
   );
 });
+
