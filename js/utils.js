@@ -60,7 +60,7 @@ export function addExperience(image, role, date, description, alt, link) {
       ).append(
         $(`<a href=${link} target="_blank">`).append(
           $(
-            `<img id="experienceBanner" src="assets/${image}" alt=${alt} class="rounded img-fluid"/>`,
+            `<img id="experienceBanner" src="assets/${image}" alt=${alt} class="rounded img-fluid hover-animation"/>`,
           ),
         ),
       ),
@@ -82,7 +82,7 @@ export function addProject(image, name, date, description, alt, link) {
       ).append(
         $(`<a href=${link} target="_blank">`).append(
           $(
-            `<img id="projectBanner" src="assets/${image}" alt=${alt} class="rounded img-fluid"/>`,
+            `<img id="projectBanner" src="assets/${image}" alt=${alt} class="rounded img-fluid hover-animation"/>`,
           ),
         ),
       ),
